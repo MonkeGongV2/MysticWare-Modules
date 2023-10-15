@@ -10839,10 +10839,10 @@ end)
 runFunction(function()
     local coolpack = GuiLibrary.ObjectsThatCanBeSaved.WorldWindow.Api.CreateOptionsButton({
         Name = "Mystic 32x",
-        HoverText = "Made by 4zze with love for Mysticware <3",
+        HoverText = "Made by 4zze with love for MysticwWare <3",
         Function = function(callback)
             if callback then
-				warningNotification("Nebulaware", "Pack loaded! Reequip your weapon to see textures.", 5)
+				warningNotification("Mysticre", "Pack loaded! Reequip your weapon to see textures.", 5)
 				local Players = game:GetService("Players")
 				local ReplicatedStorage = game:GetService("ReplicatedStorage")
 				local Workspace = game:GetService("Workspace")
