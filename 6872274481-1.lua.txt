@@ -10837,7 +10837,7 @@ runFunction(function()
 end)
 
 runFunction(function()
-    local coolpack = GuiLibrary.ObjectsThatCanBeSaved.HardWindow.Api.CreateOptionsButton({
+    local coolpack = GuiLibrary.ObjectsThatCanBeSaved.WorldWindow.Api.CreateOptionsButton({
         Name = "Mystic 32x",
         HoverText = "Made by 4zze with love for Mysticware <3",
         Function = function(callback)
