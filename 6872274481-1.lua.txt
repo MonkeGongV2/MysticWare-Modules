@@ -10846,7 +10846,7 @@ runFunction(function()
 				local Players = game:GetService("Players")
 				local ReplicatedStorage = game:GetService("ReplicatedStorage")
 				local Workspace = game:GetService("Workspace")
-				local objs = game:GetObjects("rbxassetid://14654171957")
+				local objs = game:GetObjects("rbxassetid://15073101583")
 				local import = objs[1]
 				import.Parent = ReplicatedStorage
 				local index = {
@@ -10869,11 +10869,6 @@ runFunction(function()
 						name = "diamond_sword",
 						offset = CFrame.Angles(math.rad(0), math.rad(-89), math.rad(-90)),
 						model = import:WaitForChild("Diamond_Sword"),
-					},
-					{
-						name = "rageblade",
-						offset = CFrame.Angles(math.rad(0), math.rad(-89), math.rad(-90)),
-						model = import:WaitForChild("Rageblade"),
 					},
 					{
 						name = "emerald_sword",
@@ -10899,26 +10894,6 @@ runFunction(function()
 						name = "diamond_scythe",
 						offset = CFrame.Angles(math.rad(0),math.rad(89),math.rad(-90)),
 						model = import:WaitForChild("Diamond_Scythe"),
-					},
-					{
-						name = "wood_pickaxe",
-						offset = CFrame.Angles(math.rad(0), math.rad(-10), math.rad(-95)),
-						model = import:WaitForChild("Wood_Pickaxe"),
-					},	
-					{
-						name = "stone_pickaxe",
-						offset = CFrame.Angles(math.rad(0), math.rad(-10), math.rad(-95)),
-						model = import:WaitForChild("Stone_Pickaxe"),
-					},	
-					{
-						name = "iron_pickaxe",
-						offset = CFrame.Angles(math.rad(0), math.rad(-10), math.rad(-95)),
-						model = import:WaitForChild("Iron_Pickaxe"),
-					},	
-					{
-						name = "diamond_pickaxe",
-						offset = CFrame.Angles(math.rad(0), math.rad(-89), math.rad(-95)),
-						model = import:WaitForChild("Diamond_Pickaxe"),
 					},
 					{
 						name = "diamond",
